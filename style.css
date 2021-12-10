@@ -85,6 +85,7 @@
 
 
 
+
 #navbar_.sticky{
 
     background:linear-gradient(90deg, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 46%, rgba(254,0,0,1) 100%) ;
@@ -101,6 +102,16 @@
     border-radius: 30px;
   
 }
+
+#navbar_ .menu-items  li a.textColorHover{
+ 
+    color: black !important;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
 
 
 /*  logo */
@@ -815,64 +826,65 @@ background: linear-gradient(90deg, rgba(255,12,12,1) 0%, rgba(228,12,12,1) 0%, r
 /* contact me */
 
 
-.contact .contact-content{
+.contactC .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 70vh;
 }
 
-.contact .contact-content .column{
+.contactC .contact-content .column{
     width: calc(50% - 30px);
 }
-.contact .contact-content .left p{
+.contactC .contact-content .left p{
     text-align: justify;
 }
-.contact .contact-content .left .icons{
+.contactC .contact-content .left .icons{
     margin: 10px 0;
 }
-.contact .contact-content .row{
+.contactC .contact-content .row{
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
+.contactC .contact-content .row .info{
     margin-left: 30px;
 }
-.contact .contact-content .row i{
+.contactC .contact-content .row i{
     font-size: 25px;
     color: #111;
 }
-.contact .contact-content .row  a i{
+.contactC .contact-content .row  a i{
     
     padding-right: 20px;
 }
-.contact .contact-content .info .head{
+.contactC .contact-content .info .head{
     font-weight: 500;
 }
-.contact .contact-content .info .sub-title{
+.contactC .contact-content .info .sub-title{
     color: #333;
 }
-.contact .right form .fields{
+.contactC .right form .fields{
     display: flex;
 }
-.contact .right form .field,
-.contact .right form .fields .field{
+.contactC .right form .field,
+.contactC .right form .fields .field{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
-.contact .right form .textarea{
+.contactC .right form .textarea{
     height: 80px;
     width: 100%;
 }
-.contact .right form .name{
+.contactC .right form .name{
     margin-right: 10px;
 }
-.contact .right form .field input,
-.contact .right form .textarea textarea{
+.contactC .right form .field input,
+.contactC .right form .textarea textarea{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -883,15 +895,15 @@ background: linear-gradient(90deg, rgba(255,12,12,1) 0%, rgba(228,12,12,1) 0%, r
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
+.contactC .right form .field input:focus,
+.contactC .right form .textarea textarea:focus{
     border-color: #b3b3b3;
 }
-.contact .right form .textarea textarea{
+.contactC .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
 }
-.contact .right form .button-area{
+.contactC .right form .button-area{
   display: flex;
   align-items: center;
 }
