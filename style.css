@@ -920,6 +920,12 @@ background: linear-gradient(90deg, rgba(255,12,12,1) 0%, rgba(228,12,12,1) 0%, r
 }
 
 
+#contact i:hover{
+
+    color: rgba(228,12,12,1);
+}
+
+
 
 /* footer */
 
